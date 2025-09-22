@@ -19,7 +19,7 @@ const Footer = () => {
             </a>
             </motion.div>
             <motion.div variants={fadeIn("left","spring",0.5,0.75)}>
-            <a href="https://t.me/sunlee9196" className="group">
+            <a href="https://t.me/leosunz89" className="group">
               <i className="fab fa-telegram text-3xl group-hover:text-pink-500"></i>
             </a></motion.div>
             <a href="https://mail.google.com/mail/?view=cm&to=devsunleez@gmail.com" className="group">
