@@ -23,7 +23,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-[140px] h-14 object-contain'/>
           
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        {/* <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -32,7 +32,7 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-        </ul>
+        </ul> */}
         <div className='sm:hidden flex flex-1 justify-end items-center'>
             <img
               src={toggle?close:menu}

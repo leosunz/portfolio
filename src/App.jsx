@@ -8,9 +8,9 @@ function App() {
       <div className="relative z-0 bg-black">
         <Navbar/>
         <About/>
-        <Experience/>
-        <Works/>
-        <Feedbacks/>
+        {/* <Experience/> */}
+        {/* <Works/> */}
+        {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact/>
         </div>

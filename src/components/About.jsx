@@ -41,11 +41,8 @@ const About = () => {
       </motion.div>
       <motion.p  variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] about'>
-        A results-driven Full-Stack Developer with 15 years of progressive 
-        experience and hands-on practices specializing in SDLC, cloud native architectures. Expert in building not only responsive, user-friendly frontends, but also scalable backend services 
-        using Node.js (Express), Python (Django), Java (Spring Boot), C# (.NET), Golang, C/C++.
-        Seeking to apply extensive technical knowledge to solve complex 
-        challenges in a forward-thinking environment. Let's collaborate to bring your ideas to life!
+          A software engineer with 15 years of experience.
+          Solid foundation in computer science, capable of handling large-scale applications with advanced algorithms and data structures, designing scalable systems in micro-services, and managing major cloud services, i.e. Amazon Web Services (AWS) and Google Cloud Platform (GCP). Always aim to pick the right tools and skills in the right moment, with team-first communications.
       </motion.p>
       <div className='mt-20 flex flex-wrap justify-center gap-10'>
         {services.map((service, index) => (

@@ -126,7 +126,7 @@
   transform: translateZ(0);
 }
 
-.vertical-timeline-element {
+/* .vertical-timeline-element {
   margin: -8em 0;
 
   @media only screen and (max-width: 1168px) {
@@ -136,9 +136,7 @@
       margin: 1em 0;
     }
   }
-
-
-}
+} */
 
 @keyframes mulShdSpin {
   0%,

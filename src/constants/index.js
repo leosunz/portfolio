@@ -28,6 +28,10 @@ import {
       title: "About",
     },
     {
+      id: 'experience',
+      title: "Experience",
+    },
+    {
       id: "work",
       title: "Work",
     },
@@ -110,36 +114,25 @@ import {
   const experiences = [
     {
       icon: git,
-      company_name: "Freelance, WFH, Contract",
-      period: "2022-Present",
-      title: "Full Stack Developer",
+      company_name: "WWWEST SOLUTIONS, Contract, Remote",
+      period: "2020-Present",
+      title: "Front & Backend Developer",
       points: [
-        "Developed & Deployed Technical English for Aviation where customers and students could buy online courses and certificates by using React for frontend, Node.js for backend api, SQL Server for database.",
-        "Developed & Delivered electrical devices monitor system for Necon, by using C# .NET for backend, Razor for frontend, SQL Server for database, CouchDB for electrical device data.",
-        "Migrated an online web application to sell Instagram likes, followers, and views from PHP to a Wordpress application, SuperSocialy",
+        "Participated in development of Reputation Management Platform as an extra-increased member, and provided technical troubleshooting, overall refinement in backend api and cloud architecture to reduce latency by 20%, then integrated api to frontend.",
+        "Participated in development of website development for Mental Health Provider, resulting in promotion of conversion rates by 3 times higher.",
         "Participated in online flight booking platform by using React.js for frontend, node.js for backend api, Firebase for database, Skyscanner."
       ]
     },
     {
       icon: git,
-      company_name: "WWWEST SOLUTIONS, Remote",
-      period: "2020-2021",
-      title: "Frontend & Backend Developer",
-      points: [
-        "Participated in development of Reputation Management Platform as an extra-increased member, and provided technical troubleshooting, overall refinement in backend api to reduce latency by 20%, then integrated api to frontend.",
-        "Worked with graphic artists to fully convert UI/UX frames into pixel perfect user interface to build exclusive user-experience and customer satisfaction.",
-        "Focused on creation of perfect table schemas and their relationship in SQL/NoSQL databases to provide customers best extensive solution for future update."
-      ]
-    },
-    {
-      icon: git,
-      company_name: "Freelance",
+      company_name: "South China Morning Post SCMP",
       period: "2017-2019",
-      title: "Freelancer",
+      title: "Software Engineer",
       points: [
-        "Learned & Practiced SPA based concepts, key advantages such as two-way binding, client-side rendering, seamless user experience.",
-        "Practiced development of SPA reusable component prototypes.",
-        "Provided bug fixing and maintenance of Magento-based ecommerce for local supermarket owners."
+        "Self-learned & practiced SPA based concepts, key advantages such as two-way binding, client-side rendering, seamless user experience and much more.",
+        "Development of SPA reusable component prototypes for transition of PHP frameworks based websites.",
+        "Gained a foundation and experience for api endpoints development using Golang, Node.js and clouding solutions - Kubernetes, Docker.",
+        "Adopted golang-based storage technology like IPFS, bfs as company's distributed file system."
       ]
     },
     {
@@ -162,7 +155,7 @@ import {
       title: " IT Engineer/Database Administrator",
       points: [
         "Served as a software engineer, responsible for development and maintenance of library-business platforms using C++, Java Spring MVC framework, and OracleDB.",
-        "Provided maintenance of over a numberous millions of rows-recorded Oracle Database with secure access, grants, procedures, migration, clustering, search engine and query optimization.",
+        "Responsible for maintenance of 20+ millions of rows Oracle Database with secure access, grants, procedures, triggers, migration, clustering, search engine and query optimization.",
         "Participated in development of splunk-based monitoring system providing real-time logs, error alerts, and access to database server by using MFC.",
         "Developed the software that automatically extracts metadata from digital data and transforms them into international standardized XML format to store into OracleDB.",
         "Participated in development of room & book reservation system, privilege opening system by using MVC-based J2EE platform.",
